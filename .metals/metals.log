@@ -866,3 +866,189 @@ INFO: Unsupported notification method: $/setTrace
 2023.09.06 16:54:22 INFO  shutting down Metals
 2023.09.06 16:54:22 INFO  Shut down connection with build server.
 2023.09.06 16:54:22 INFO  Exiting server
+2023.09.06 17:08:39 INFO  Started: Metals version 1.0.1 in folders 'C:\Projects\GeoMesa-Spark' for client Visual Studio Code 1.81.1.
+Sep 06, 2023 5:08:39 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Sep 06, 2023 5:08:39 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Sep 06, 2023 5:08:39 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Sep 06, 2023 5:08:40 PM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:C:\Projects\GeoMesa-Spark\.metals\metals (H2 2.1)
+Sep 06, 2023 5:08:40 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.063s)
+Sep 06, 2023 5:08:40 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Sep 06, 2023 5:08:40 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.09.06 17:08:40 INFO  time: initialize in 1.69s
+2023.09.06 17:08:46 INFO  Attempting to connect to the build server...
+2023.09.06 17:08:46 INFO  Running BSP server List(C:\Users\Siddh\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Projects\GeoMesa-Spark\.scala-build\ide-options-v2.json, C:\Projects\GeoMesa-Spark)
+2023.09.06 17:08:46 WARN  No build session currently active to reload.
+2023.09.06 17:08:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Projects\GeoMesa-Spark\.metals\bsp.trace.json or C:\Users\Siddh\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.09.06 17:08:53 INFO  no build target found for C:\Projects\GeoMesa-Spark\geomesa-project\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.09.06 17:08:57 INFO  time: code lens generation in 11s
+2023.09.06 17:08:59 INFO  time: Connected to build server in 12s
+2023.09.06 17:08:59 INFO  Connected to Build server: scala-cli v0.1.17
+2023.09.06 17:09:00 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.09.06 17:09:02 INFO  time: compiled project_bd2c96d2de in 2.27s
+2023.09.06 17:09:02 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.09.06 17:09:04 INFO  time: indexed workspace in 5.13s
+2023.09.06 17:09:04 WARN  Could not load snapshot text for C:\Projects\GeoMesa-Spark\geomesa-project\src\main\scala\Main.scala
+2023.09.06 17:09:10 INFO  time: compiled project_bd2c96d2de in 7.02s
+2023.09.06 17:09:10 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.09.06 17:09:10 INFO  time: compiled project_bd2c96d2de in 0.13s
+2023.09.06 17:09:12 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.09.06 17:09:14 INFO  time: compiled project_bd2c96d2de in 1.65s
+2023.09.06 17:09:28 WARN  Could not load snapshot text for C:\Projects\GeoMesa-Spark\geomesa-project\src\main\scala\Main.scala
+2023.09.06 17:11:51 WARN  Could not load snapshot text for C:\Projects\GeoMesa-Spark\geomesa-project\src\main\scala\Main.scala
+2023.09.06 17:11:56 WARN  Could not load snapshot text for C:\Projects\GeoMesa-Spark\geomesa-project\src\main\scala\Main.scala
+2023.09.06 17:11:56 WARN  Could not load snapshot text for C:\Projects\GeoMesa-Spark\geomesa-project\src\main\scala\Main.scala
+2023.09.06 17:11:56 WARN  Could not load snapshot text for C:\Projects\GeoMesa-Spark\geomesa-project\src\main\scala\Main.scala
+2023.09.06 17:11:58 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.09.06 17:11:58 WARN  Could not load snapshot text for C:\Projects\GeoMesa-Spark\geomesa-project\src\main\scala\Main.scala
+2023.09.06 17:12:00 INFO  time: compiled project_bd2c96d2de in 1.57s
+Sep 06, 2023 5:12:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 40
+Sep 06, 2023 5:12:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 41
+Sep 06, 2023 5:12:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 43
+2023.09.06 17:12:00 WARN  Could not load snapshot text for C:\Projects\GeoMesa-Spark\geomesa-project\src\main\scala\Main.scala
+Sep 06, 2023 5:12:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 48
+2023.09.06 17:12:01 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.09.06 17:12:02 WARN  Could not load snapshot text for C:\Projects\GeoMesa-Spark\geomesa-project\src\main\scala\Main.scala
+2023.09.06 17:12:03 INFO  time: compiled project_bd2c96d2de in 1.65s
+2023.09.06 17:12:03 WARN  Could not load snapshot text for C:\Projects\GeoMesa-Spark\geomesa-project\src\main\scala\Main.scala
+2023.09.06 17:12:04 WARN  Could not load snapshot text for C:\Projects\GeoMesa-Spark\geomesa-project\src\main\scala\Main.scala
+2023.09.06 17:12:04 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.09.06 17:12:05 WARN  Could not load snapshot text for C:\Projects\GeoMesa-Spark\geomesa-project\src\main\scala\Main.scala
+2023.09.06 17:12:06 WARN  Could not load snapshot text for C:\Projects\GeoMesa-Spark\geomesa-project\src\main\scala\Main.scala
+2023.09.06 17:12:06 INFO  time: compiled project_bd2c96d2de in 1.55s
+2023.09.06 17:12:07 WARN  Could not load snapshot text for C:\Projects\GeoMesa-Spark\geomesa-project\src\main\scala\Main.scala
+2023.09.06 17:12:08 WARN  Could not load snapshot text for C:\Projects\GeoMesa-Spark\geomesa-project\src\main\scala\Main.scala
+2023.09.06 17:12:10 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.09.06 17:12:10 INFO  time: compiled project_bd2c96d2de in 0.87s
+2023.09.06 17:12:11 WARN  Could not load snapshot text for C:\Projects\GeoMesa-Spark\geomesa-project\src\main\scala\Main.scala
+2023.09.06 17:12:38 WARN  Could not load snapshot text for C:\Projects\GeoMesa-Spark\geomesa-project\src\main\scala\Main.scala
+2023.09.06 17:12:42 WARN  Could not load snapshot text for C:\Projects\GeoMesa-Spark\geomesa-project\src\main\scala\Main.scala
+2023.09.06 17:12:42 WARN  Could not load snapshot text for C:\Projects\GeoMesa-Spark\geomesa-project\src\main\scala\Main.scala
+2023.09.06 17:12:43 WARN  Could not load snapshot text for C:\Projects\GeoMesa-Spark\geomesa-project\src\main\scala\Main.scala
+2023.09.06 17:12:44 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.09.06 17:12:45 INFO  time: compiled project_bd2c96d2de in 1.07s
+2023.09.06 17:12:46 WARN  Could not load snapshot text for C:\Projects\GeoMesa-Spark\geomesa-project\src\main\scala\Main.scala
+2023.09.06 17:12:50 WARN  Could not load snapshot text for C:\Projects\GeoMesa-Spark\geomesa-project\src\main\scala\Main.scala
+2023.09.06 17:12:52 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.09.06 17:12:52 INFO  time: compiled project_bd2c96d2de in 0.95s
+2023.09.06 17:12:53 WARN  Could not load snapshot text for C:\Projects\GeoMesa-Spark\geomesa-project\src\main\scala\Main.scala
+2023.09.06 17:17:28 WARN  Could not load snapshot text for C:\Projects\GeoMesa-Spark\geomesa-project\src\main\scala\Main.scala
+2023.09.06 17:18:57 WARN  Could not load snapshot text for C:\Projects\GeoMesa-Spark\geomesa-project\src\main\scala\Main.scala
+2023.09.06 17:19:08 WARN  Could not load snapshot text for C:\Projects\GeoMesa-Spark\geomesa-project\src\main\scala\Main.scala
+2023.09.06 17:19:09 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.09.06 17:19:09 INFO  time: compiled project_bd2c96d2de in 0.69s
+2023.09.06 17:19:10 WARN  Could not load snapshot text for C:\Projects\GeoMesa-Spark\geomesa-project\src\main\scala\Main.scala
+2023.09.06 17:19:38 WARN  Could not load snapshot text for C:\Projects\GeoMesa-Spark\geomesa-project\src\main\scala\Main.scala
+2023.09.06 17:19:40 WARN  Could not load snapshot text for C:\Projects\GeoMesa-Spark\geomesa-project\src\main\scala\Main.scala
+2023.09.06 17:19:41 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.09.06 17:19:41 INFO  time: compiled project_bd2c96d2de in 0.42s
+2023.09.06 17:19:42 WARN  Could not load snapshot text for C:\Projects\GeoMesa-Spark\geomesa-project\src\main\scala\Main.scala
+2023.09.06 17:19:44 WARN  Could not load snapshot text for C:\Projects\GeoMesa-Spark\geomesa-project\src\main\scala\Main.scala
+2023.09.06 17:19:45 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.09.06 17:19:45 INFO  time: compiled project_bd2c96d2de in 0.42s
+2023.09.06 17:19:46 WARN  Could not load snapshot text for C:\Projects\GeoMesa-Spark\geomesa-project\src\main\scala\Main.scala
+2023.09.06 17:19:49 WARN  Could not load snapshot text for C:\Projects\GeoMesa-Spark\geomesa-project\src\main\scala\Main.scala
+2023.09.06 17:19:50 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.09.06 17:19:50 INFO  time: compiled project_bd2c96d2de in 0.43s
+2023.09.06 17:19:51 WARN  Could not load snapshot text for C:\Projects\GeoMesa-Spark\geomesa-project\src\main\scala\Main.scala
+2023.09.06 17:19:52 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.09.06 17:19:52 INFO  time: compiled project_bd2c96d2de in 0.5s
+2023.09.06 17:19:53 WARN  Could not load snapshot text for C:\Projects\GeoMesa-Spark\geomesa-project\src\main\scala\Main.scala
+2023.09.06 17:20:22 WARN  Could not load snapshot text for C:\Projects\GeoMesa-Spark\geomesa-project\src\main\scala\Main.scala
+2023.09.06 17:20:44 WARN  Could not load snapshot text for C:\Projects\GeoMesa-Spark\geomesa-project\src\main\scala\Main.scala
+2023.09.06 17:20:59 WARN  Could not load snapshot text for C:\Projects\GeoMesa-Spark\geomesa-project\src\main\scala\Main.scala
+2023.09.06 17:21:01 WARN  Could not load snapshot text for C:\Projects\GeoMesa-Spark\geomesa-project\src\main\scala\Main.scala
+2023.09.06 17:21:02 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.09.06 17:21:02 INFO  time: compiled project_bd2c96d2de in 0.55s
+2023.09.06 17:21:03 WARN  Could not load snapshot text for C:\Projects\GeoMesa-Spark\geomesa-project\src\main\scala\Main.scala
+2023.09.06 17:21:35 WARN  Could not load snapshot text for C:\Projects\GeoMesa-Spark\geomesa-project\src\main\scala\Main.scala
+2023.09.06 17:21:35 WARN  Could not load snapshot text for C:\Projects\GeoMesa-Spark\geomesa-project\src\main\scala\Main.scala
+2023.09.06 17:21:35 WARN  Could not load snapshot text for C:\Projects\GeoMesa-Spark\geomesa-project\src\main\scala\Main.scala
+2023.09.06 17:21:46 WARN  Could not load snapshot text for C:\Projects\GeoMesa-Spark\geomesa-project\src\main\scala\Main.scala
+2023.09.06 17:22:27 WARN  no build target for: C:\Projects\GeoMesa-Spark\geomesa-project\build.sbt
+2023.09.06 17:22:27 WARN  Could not find semantic tokens for: file:///C:/Projects/GeoMesa-Spark/geomesa-project/build.sbt
+2023.09.06 17:22:27 WARN  Could not find semantic tokens for: file:///C:/Projects/GeoMesa-Spark/geomesa-project/build.sbt
+2023.09.06 17:26:42 WARN  Could not load snapshot text for C:\Projects\GeoMesa-Spark\geomesa-project\src\main\scala\Main.scala
+2023.09.06 17:26:43 WARN  Could not load snapshot text for C:\Projects\GeoMesa-Spark\geomesa-project\src\main\scala\Main.scala
+2023.09.06 17:26:51 INFO  file:///C:/Projects/GeoMesa-Spark/geomesa-project/src/main/scala/Main.scala:34:33: stale bloop error: '=' expected, but '{' found
+  def main(args: Array[String]) {
+                                ^
+2023.09.06 17:26:51 INFO  file:///C:/Projects/GeoMesa-Spark/geomesa-project/src/main/scala/Main.scala:3:8: stale bloop error: value apache is not a member of org
+import org.apache.hadoop.conf.Configuration
+       ^^^^^^^^^^
+2023.09.06 17:26:51 INFO  file:///C:/Projects/GeoMesa-Spark/geomesa-project/src/main/scala/Main.scala:4:8: stale bloop error: value apache is not a member of org
+import org.apache.spark.rdd.RDD
+       ^^^^^^^^^^
+2023.09.06 17:26:51 INFO  file:///C:/Projects/GeoMesa-Spark/geomesa-project/src/main/scala/Main.scala:5:8: stale bloop error: value apache is not a member of org
+import org.apache.spark.{SparkConf, SparkContext}
+       ^^^^^^^^^^
+2023.09.06 17:26:51 INFO  file:///C:/Projects/GeoMesa-Spark/geomesa-project/src/main/scala/Main.scala:6:8: stale bloop error: value geotools is not a member of org
+import org.geotools.data.{DataStoreFinder, Query}
+       ^^^^^^^^^^^^
+2023.09.06 17:26:51 INFO  file:///C:/Projects/GeoMesa-Spark/geomesa-project/src/main/scala/Main.scala:7:8: stale bloop error: value geotools is not a member of org
+import org.geotools.factory.CommonFactoryFinder
+       ^^^^^^^^^^^^
+2023.09.06 17:26:51 INFO  file:///C:/Projects/GeoMesa-Spark/geomesa-project/src/main/scala/Main.scala:8:8: stale bloop error: value geotools is not a member of org
+import org.geotools.filter.text.ecql.ECQL
+       ^^^^^^^^^^^^
+2023.09.06 17:26:51 INFO  file:///C:/Projects/GeoMesa-Spark/geomesa-project/src/main/scala/Main.scala:9:8: stale bloop error: value locationtech is not a member of org
+import org.locationtech.geomesa.accumulo.data.AccumuloDataStore
+       ^^^^^^^^^^^^^^^^
+2023.09.06 17:26:51 INFO  file:///C:/Projects/GeoMesa-Spark/geomesa-project/src/main/scala/Main.scala:10:8: stale bloop error: value locationtech is not a member of org
+import org.locationtech.geomesa.spark.GeoMesaSpark
+       ^^^^^^^^^^^^^^^^
+2023.09.06 17:26:51 INFO  file:///C:/Projects/GeoMesa-Spark/geomesa-project/src/main/scala/Main.scala:11:8: stale bloop error: value opengis is not a member of org
+import org.opengis.feature.simple.SimpleFeature
+       ^^^^^^^^^^^
+2023.09.06 17:26:51 INFO  file:///C:/Projects/GeoMesa-Spark/geomesa-project/src/main/scala/Main.scala:13:8: stale bloop error: value JavaConversions is not a member of collection
+import scala.collection.JavaConversions._
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.09.06 17:26:51 INFO  file:///C:/Projects/GeoMesa-Spark/geomesa-project/src/main/scala/Main.scala:34:33: stale bloop error: '=' expected, but '{' found
+  def main(args: Array[String]) {
+                                ^
+2023.09.06 17:26:51 INFO  file:///C:/Projects/GeoMesa-Spark/geomesa-project/src/main/scala/Main.scala:3:8: stale bloop error: value apache is not a member of org
+import org.apache.hadoop.conf.Configuration
+       ^^^^^^^^^^
+2023.09.06 17:26:51 INFO  file:///C:/Projects/GeoMesa-Spark/geomesa-project/src/main/scala/Main.scala:4:8: stale bloop error: value apache is not a member of org
+import org.apache.spark.rdd.RDD
+       ^^^^^^^^^^
+2023.09.06 17:26:51 INFO  file:///C:/Projects/GeoMesa-Spark/geomesa-project/src/main/scala/Main.scala:5:8: stale bloop error: value apache is not a member of org
+import org.apache.spark.{SparkConf, SparkContext}
+       ^^^^^^^^^^
+2023.09.06 17:26:51 INFO  file:///C:/Projects/GeoMesa-Spark/geomesa-project/src/main/scala/Main.scala:6:8: stale bloop error: value geotools is not a member of org
+import org.geotools.data.{DataStoreFinder, Query}
+       ^^^^^^^^^^^^
+2023.09.06 17:26:51 INFO  file:///C:/Projects/GeoMesa-Spark/geomesa-project/src/main/scala/Main.scala:7:8: stale bloop error: value geotools is not a member of org
+import org.geotools.factory.CommonFactoryFinder
+       ^^^^^^^^^^^^
+2023.09.06 17:26:51 INFO  file:///C:/Projects/GeoMesa-Spark/geomesa-project/src/main/scala/Main.scala:8:8: stale bloop error: value geotools is not a member of org
+import org.geotools.filter.text.ecql.ECQL
+       ^^^^^^^^^^^^
+2023.09.06 17:26:51 INFO  file:///C:/Projects/GeoMesa-Spark/geomesa-project/src/main/scala/Main.scala:9:8: stale bloop error: value locationtech is not a member of org
+import org.locationtech.geomesa.accumulo.data.AccumuloDataStore
+       ^^^^^^^^^^^^^^^^
+2023.09.06 17:26:51 INFO  file:///C:/Projects/GeoMesa-Spark/geomesa-project/src/main/scala/Main.scala:10:8: stale bloop error: value locationtech is not a member of org
+import org.locationtech.geomesa.spark.GeoMesaSpark
+       ^^^^^^^^^^^^^^^^
+2023.09.06 17:26:51 INFO  file:///C:/Projects/GeoMesa-Spark/geomesa-project/src/main/scala/Main.scala:11:8: stale bloop error: value opengis is not a member of org
+import org.opengis.feature.simple.SimpleFeature
+       ^^^^^^^^^^^
+2023.09.06 17:26:51 INFO  file:///C:/Projects/GeoMesa-Spark/geomesa-project/src/main/scala/Main.scala:13:8: stale bloop error: value JavaConversions is not a member of collection
+import scala.collection.JavaConversions._
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.09.06 17:26:51 WARN  Could not load snapshot text for C:\Projects\GeoMesa-Spark\geomesa-project\src\main\scala\Main.scala
+2023.09.06 17:26:51 WARN  Could not find semantic tokens for: file:///C:/Projects/GeoMesa-Spark/geomesa-project/src/main/scala/Main.scala
+2023.09.06 17:26:53 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.09.06 17:26:53 INFO  time: compiled project_bd2c96d2de in 98ms
+2023.09.06 17:26:53 WARN  Could not find semantic tokens for: file:///C:/Projects/GeoMesa-Spark/geomesa-project/src/main/scala/Main.scala
+2023.09.06 17:26:54 WARN  Could not find semantic tokens for: file:///C:/Projects/GeoMesa-Spark/geomesa-project/build.sbt
