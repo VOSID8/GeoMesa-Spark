@@ -1,0 +1,17 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging C:\Projects\GeoMesa-Spark\geomesa-project\target\scala-2.11\geomesa-project_2.11-4.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CountByDay$$anonfun$1$$anonfun$apply$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Projects\GeoMesa-Spark\geomesa-project\target\scala-2.11\classes\CountByDay$$anonfun$1$$anonfun$apply$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CountByDay$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Projects\GeoMesa-Spark\geomesa-project\target\scala-2.11\classes\CountByDay$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CountByDay$$anonfun$countByDay$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Projects\GeoMesa-Spark\geomesa-project\target\scala-2.11\classes\CountByDay$$anonfun$countByDay$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CountByDay$$anonfun$countByDay$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Projects\GeoMesa-Spark\geomesa-project\target\scala-2.11\classes\CountByDay$$anonfun$countByDay$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CountByDay$$anonfun$main$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Projects\GeoMesa-Spark\geomesa-project\target\scala-2.11\classes\CountByDay$$anonfun$main$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CountByDay$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Projects\GeoMesa-Spark\geomesa-project\target\scala-2.11\classes\CountByDay$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CountByDay.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Projects\GeoMesa-Spark\geomesa-project\target\scala-2.11\classes\CountByDay.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

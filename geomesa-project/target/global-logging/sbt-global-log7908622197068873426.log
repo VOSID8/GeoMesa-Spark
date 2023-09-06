@@ -1,0 +1,471 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(compile, Some(5a931ce3-558c-4a22-ad21-bb7bc4876efa), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mUpdating [0m
+[0m[[0m[0minfo[0m] [0m[0mResolved  dependencies[0m
+[0m[[0m[33mwarn[0m] [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m	Note: Unresolved dependencies path:[0m
+[0m[[0m[31merror[0m] [0m[0msbt.librarymanagement.ResolveException: Error downloading org.geotools:gt-transform:15.1[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: C:\Users\Siddh\.ivy2\local\org.geotools\gt-transform\15.1\ivys\ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/org/geotools/gt-transform/15.1/gt-transform-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo.locationtech.org/content/groups/releases/org/geotools/gt-transform/15.1/gt-transform-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException (repo.boundlessgeo.com) while downloading https://repo.boundlessgeo.com/main/org/geotools/gt-transform/15.1/gt-transform-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://download.osgeo.org/webdav/geotools/org/geotools/gt-transform/15.1/gt-transform-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.SocketException (Connection reset) while downloading https://conjars.org/repo/org/geotools/gt-transform/15.1/gt-transform-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0mError downloading org.geotools:gt-api:15.1[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: C:\Users\Siddh\.ivy2\local\org.geotools\gt-api\15.1\ivys\ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/org/geotools/gt-api/15.1/gt-api-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo.locationtech.org/content/groups/releases/org/geotools/gt-api/15.1/gt-api-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException (repo.boundlessgeo.com) while downloading https://repo.boundlessgeo.com/main/org/geotools/gt-api/15.1/gt-api-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://download.osgeo.org/webdav/geotools/org/geotools/gt-api/15.1/gt-api-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.SocketException (Connection reset) while downloading https://conjars.org/repo/org/geotools/gt-api/15.1/gt-api-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0mError downloading com.github.ben-manes.caffeine:caffeine:2.3.3[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: C:\Users\Siddh\.ivy2\local\com.github.ben-manes.caffeine\caffeine\2.3.3\ivys\ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/com/github/ben-manes/caffeine/caffeine/2.3.3/caffeine-2.3.3.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo.locationtech.org/content/groups/releases/com/github/ben-manes/caffeine/caffeine/2.3.3/caffeine-2.3.3.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException (repo.boundlessgeo.com) while downloading https://repo.boundlessgeo.com/main/com/github/ben-manes/caffeine/caffeine/2.3.3/caffeine-2.3.3.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://download.osgeo.org/webdav/geotools/com/github/ben-manes/caffeine/caffeine/2.3.3/caffeine-2.3.3.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.SocketException (Connection reset) while downloading https://conjars.org/repo/com/github/ben-manes/caffeine/caffeine/2.3.3/caffeine-2.3.3.pom[0m
+[0m[[0m[31merror[0m] [0m[0mError downloading commons-io:commons-io:2.1[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: C:\Users\Siddh\.ivy2\local\commons-io\commons-io\2.1\ivys\ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/commons-io/commons-io/2.1/commons-io-2.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo.locationtech.org/content/groups/releases/commons-io/commons-io/2.1/commons-io-2.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException (repo.boundlessgeo.com) while downloading https://repo.boundlessgeo.com/main/commons-io/commons-io/2.1/commons-io-2.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://download.osgeo.org/webdav/geotools/commons-io/commons-io/2.1/commons-io-2.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.SocketException (Connection reset) while downloading https://conjars.org/repo/commons-io/commons-io/2.1/commons-io-2.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0mError downloading io.netty:netty:3.7.0.Final[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: C:\Users\Siddh\.ivy2\local\io.netty\netty\3.7.0.Final\ivys\ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo.locationtech.org/content/groups/releases/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException (repo.boundlessgeo.com) while downloading https://repo.boundlessgeo.com/main/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://download.osgeo.org/webdav/geotools/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.SocketException (Connection reset) while downloading https://conjars.org/repo/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.pom[0m
+[0m[[0m[31merror[0m] [0m[0mError downloading org.slf4j:slf4j-api:1.7.7[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: C:\Users\Siddh\.ivy2\local\org.slf4j\slf4j-api\1.7.7\ivys\ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo.locationtech.org/content/groups/releases/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException (repo.boundlessgeo.com) while downloading https://repo.boundlessgeo.com/main/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://download.osgeo.org/webdav/geotools/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.SocketException (Connection reset) while downloading https://conjars.org/repo/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.pom[0m
+[0m[[0m[31merror[0m] [0m[0mError downloading org.geotools:gt-shapefile:15.1[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: C:\Users\Siddh\.ivy2\local\org.geotools\gt-shapefile\15.1\ivys\ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/org/geotools/gt-shapefile/15.1/gt-shapefile-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo.locationtech.org/content/groups/releases/org/geotools/gt-shapefile/15.1/gt-shapefile-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException (repo.boundlessgeo.com) while downloading https://repo.boundlessgeo.com/main/org/geotools/gt-shapefile/15.1/gt-shapefile-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://download.osgeo.org/webdav/geotools/org/geotools/gt-shapefile/15.1/gt-shapefile-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.SocketException (Connection reset) while downloading https://conjars.org/repo/org/geotools/gt-shapefile/15.1/gt-shapefile-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0mError downloading org.geotools:gt-referencing:15.1[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: C:\Users\Siddh\.ivy2\local\org.geotools\gt-referencing\15.1\ivys\ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/org/geotools/gt-referencing/15.1/gt-referencing-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo.locationtech.org/content/groups/releases/org/geotools/gt-referencing/15.1/gt-referencing-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException (repo.boundlessgeo.com) while downloading https://repo.boundlessgeo.com/main/org/geotools/gt-referencing/15.1/gt-referencing-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://download.osgeo.org/webdav/geotools/org/geotools/gt-referencing/15.1/gt-referencing-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.SocketException (Connection reset) while downloading https://conjars.org/repo/org/geotools/gt-referencing/15.1/gt-referencing-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0mError downloading org.geotools:gt-data:15.1[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: C:\Users\Siddh\.ivy2\local\org.geotools\gt-data\15.1\ivys\ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/org/geotools/gt-data/15.1/gt-data-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo.locationtech.org/content/groups/releases/org/geotools/gt-data/15.1/gt-data-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException (repo.boundlessgeo.com) while downloading https://repo.boundlessgeo.com/main/org/geotools/gt-data/15.1/gt-data-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://download.osgeo.org/webdav/geotools/org/geotools/gt-data/15.1/gt-data-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.SocketException (Connection reset) while downloading https://conjars.org/repo/org/geotools/gt-data/15.1/gt-data-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0mError downloading org.slf4j:slf4j-api:1.7.5[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: C:\Users\Siddh\.ivy2\local\org.slf4j\slf4j-api\1.7.5\ivys\ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo.locationtech.org/content/groups/releases/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException (repo.boundlessgeo.com) while downloading https://repo.boundlessgeo.com/main/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://download.osgeo.org/webdav/geotools/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.SocketException (Connection reset) while downloading https://conjars.org/repo/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.pom[0m
+[0m[[0m[31merror[0m] [0m[0mError downloading com.google.guava:guava:17.0[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: C:\Users\Siddh\.ivy2\local\com.google.guava\guava\17.0\ivys\ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/com/google/guava/guava/17.0/guava-17.0.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo.locationtech.org/content/groups/releases/com/google/guava/guava/17.0/guava-17.0.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException (repo.boundlessgeo.com) while downloading https://repo.boundlessgeo.com/main/com/google/guava/guava/17.0/guava-17.0.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://download.osgeo.org/webdav/geotools/com/google/guava/guava/17.0/guava-17.0.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.SocketException (Connection reset) while downloading https://conjars.org/repo/com/google/guava/guava/17.0/guava-17.0.pom[0m
+[0m[[0m[31merror[0m] [0m[0mError downloading org.apache.accumulo:accumulo-core:1.7.3[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: C:\Users\Siddh\.ivy2\local\org.apache.accumulo\accumulo-core\1.7.3\ivys\ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/org/apache/accumulo/accumulo-core/1.7.3/accumulo-core-1.7.3.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo.locationtech.org/content/groups/releases/org/apache/accumulo/accumulo-core/1.7.3/accumulo-core-1.7.3.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException (repo.boundlessgeo.com) while downloading https://repo.boundlessgeo.com/main/org/apache/accumulo/accumulo-core/1.7.3/accumulo-core-1.7.3.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://download.osgeo.org/webdav/geotools/org/apache/accumulo/accumulo-core/1.7.3/accumulo-core-1.7.3.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.SocketException (Connection reset) while downloading https://conjars.org/repo/org/apache/accumulo/accumulo-core/1.7.3/accumulo-core-1.7.3.pom[0m
+[0m[[0m[31merror[0m] [0m[0mError downloading org.geotools:gt-main:15.1[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: C:\Users\Siddh\.ivy2\local\org.geotools\gt-main\15.1\ivys\ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/org/geotools/gt-main/15.1/gt-main-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo.locationtech.org/content/groups/releases/org/geotools/gt-main/15.1/gt-main-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException (repo.boundlessgeo.com) while downloading https://repo.boundlessgeo.com/main/org/geotools/gt-main/15.1/gt-main-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://download.osgeo.org/webdav/geotools/org/geotools/gt-main/15.1/gt-main-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.SocketException (Connection reset) while downloading https://conjars.org/repo/org/geotools/gt-main/15.1/gt-main-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0mError downloading ch.qos.logback:logback-classic:1.1.7[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: C:\Users\Siddh\.ivy2\local\ch.qos.logback\logback-classic\1.1.7\ivys\ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.1.7/logback-classic-1.1.7.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo.locationtech.org/content/groups/releases/ch/qos/logback/logback-classic/1.1.7/logback-classic-1.1.7.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException (repo.boundlessgeo.com) while downloading https://repo.boundlessgeo.com/main/ch/qos/logback/logback-classic/1.1.7/logback-classic-1.1.7.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://download.osgeo.org/webdav/geotools/ch/qos/logback/logback-classic/1.1.7/logback-classic-1.1.7.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.SocketException (Connection reset) while downloading https://conjars.org/repo/ch/qos/logback/logback-classic/1.1.7/logback-classic-1.1.7.pom[0m
+[0m[[0m[31merror[0m] [0m[0mError downloading org.geotools:gt-geojson:15.1[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: C:\Users\Siddh\.ivy2\local\org.geotools\gt-geojson\15.1\ivys\ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/org/geotools/gt-geojson/15.1/gt-geojson-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo.locationtech.org/content/groups/releases/org/geotools/gt-geojson/15.1/gt-geojson-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException (repo.boundlessgeo.com) while downloading https://repo.boundlessgeo.com/main/org/geotools/gt-geojson/15.1/gt-geojson-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://download.osgeo.org/webdav/geotools/org/geotools/gt-geojson/15.1/gt-geojson-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.SocketException (Connection reset) while downloading https://conjars.org/repo/org/geotools/gt-geojson/15.1/gt-geojson-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0mError downloading org.geotools:gt-opengis:15.1[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: C:\Users\Siddh\.ivy2\local\org.geotools\gt-opengis\15.1\ivys\ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/org/geotools/gt-opengis/15.1/gt-opengis-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo.locationtech.org/content/groups/releases/org/geotools/gt-opengis/15.1/gt-opengis-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException (repo.boundlessgeo.com) while downloading https://repo.boundlessgeo.com/main/org/geotools/gt-opengis/15.1/gt-opengis-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://download.osgeo.org/webdav/geotools/org/geotools/gt-opengis/15.1/gt-opengis-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.SocketException (Connection reset) while downloading https://conjars.org/repo/org/geotools/gt-opengis/15.1/gt-opengis-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0mError downloading org.geotools:gt-metadata:15.1[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: C:\Users\Siddh\.ivy2\local\org.geotools\gt-metadata\15.1\ivys\ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/org/geotools/gt-metadata/15.1/gt-metadata-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo.locationtech.org/content/groups/releases/org/geotools/gt-metadata/15.1/gt-metadata-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException (repo.boundlessgeo.com) while downloading https://repo.boundlessgeo.com/main/org/geotools/gt-metadata/15.1/gt-metadata-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://download.osgeo.org/webdav/geotools/org/geotools/gt-metadata/15.1/gt-metadata-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.SocketException (Connection reset) while downloading https://conjars.org/repo/org/geotools/gt-metadata/15.1/gt-metadata-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0mError downloading com.beust:jcommander:1.48[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: C:\Users\Siddh\.ivy2\local\com.beust\jcommander\1.48\ivys\ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/com/beust/jcommander/1.48/jcommander-1.48.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo.locationtech.org/content/groups/releases/com/beust/jcommander/1.48/jcommander-1.48.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException (repo.boundlessgeo.com) while downloading https://repo.boundlessgeo.com/main/com/beust/jcommander/1.48/jcommander-1.48.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://download.osgeo.org/webdav/geotools/com/beust/jcommander/1.48/jcommander-1.48.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.SocketException (Connection reset) while downloading https://conjars.org/repo/com/beust/jcommander/1.48/jcommander-1.48.pom[0m
+[0m[[0m[31merror[0m] [0m[0mError downloading org.geotools:gt-grid:15.1[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: C:\Users\Siddh\.ivy2\local\org.geotools\gt-grid\15.1\ivys\ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/org/geotools/gt-grid/15.1/gt-grid-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo.locationtech.org/content/groups/releases/org/geotools/gt-grid/15.1/gt-grid-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException (repo.boundlessgeo.com) while downloading https://repo.boundlessgeo.com/main/org/geotools/gt-grid/15.1/gt-grid-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://download.osgeo.org/webdav/geotools/org/geotools/gt-grid/15.1/gt-grid-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.SocketException (Connection reset) while downloading https://conjars.org/repo/org/geotools/gt-grid/15.1/gt-grid-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0mError downloading com.typesafe.scala-logging:scala-logging_2.11:3.5.0[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: C:\Users\Siddh\.ivy2\local\com.typesafe.scala-logging\scala-logging_2.11\3.5.0\ivys\ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging_2.11/3.5.0/scala-logging_2.11-3.5.0.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo.locationtech.org/content/groups/releases/com/typesafe/scala-logging/scala-logging_2.11/3.5.0/scala-logging_2.11-3.5.0.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException (repo.boundlessgeo.com) while downloading https://repo.boundlessgeo.com/main/com/typesafe/scala-logging/scala-logging_2.11/3.5.0/scala-logging_2.11-3.5.0.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://download.osgeo.org/webdav/geotools/com/typesafe/scala-logging/scala-logging_2.11/3.5.0/scala-logging_2.11-3.5.0.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.SocketException (Connection reset) while downloading https://conjars.org/repo/com/typesafe/scala-logging/scala-logging_2.11/3.5.0/scala-logging_2.11-3.5.0.pom[0m
+[0m[[0m[31merror[0m] [0m[0mError downloading org.geotools:gt-process-feature:15.1[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: C:\Users\Siddh\.ivy2\local\org.geotools\gt-process-feature\15.1\ivys\ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/org/geotools/gt-process-feature/15.1/gt-process-feature-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo.locationtech.org/content/groups/releases/org/geotools/gt-process-feature/15.1/gt-process-feature-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException (repo.boundlessgeo.com) while downloading https://repo.boundlessgeo.com/main/org/geotools/gt-process-feature/15.1/gt-process-feature-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://download.osgeo.org/webdav/geotools/org/geotools/gt-process-feature/15.1/gt-process-feature-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.SocketException (Connection reset) while downloading https://conjars.org/repo/org/geotools/gt-process-feature/15.1/gt-process-feature-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0mError downloading org.geotools:gt-render:15.1[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: C:\Users\Siddh\.ivy2\local\org.geotools\gt-render\15.1\ivys\ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/org/geotools/gt-render/15.1/gt-render-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo.locationtech.org/content/groups/releases/org/geotools/gt-render/15.1/gt-render-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException (repo.boundlessgeo.com) while downloading https://repo.boundlessgeo.com/main/org/geotools/gt-render/15.1/gt-render-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://download.osgeo.org/webdav/geotools/org/geotools/gt-render/15.1/gt-render-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.SocketException (Connection reset) while downloading https://conjars.org/repo/org/geotools/gt-render/15.1/gt-render-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0mError downloading org.geotools:gt-cql:15.1[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: C:\Users\Siddh\.ivy2\local\org.geotools\gt-cql\15.1\ivys\ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/org/geotools/gt-cql/15.1/gt-cql-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo.locationtech.org/content/groups/releases/org/geotools/gt-cql/15.1/gt-cql-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException (repo.boundlessgeo.com) while downloading https://repo.boundlessgeo.com/main/org/geotools/gt-cql/15.1/gt-cql-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://download.osgeo.org/webdav/geotools/org/geotools/gt-cql/15.1/gt-cql-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.SocketException (Connection reset) while downloading https://conjars.org/repo/org/geotools/gt-cql/15.1/gt-cql-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0mError downloading com.google.code.gson:gson:2.3.1[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: C:\Users\Siddh\.ivy2\local\com.google.code.gson\gson\2.3.1\ivys\ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/com/google/code/gson/gson/2.3.1/gson-2.3.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo.locationtech.org/content/groups/releases/com/google/code/gson/gson/2.3.1/gson-2.3.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException (repo.boundlessgeo.com) while downloading https://repo.boundlessgeo.com/main/com/google/code/gson/gson/2.3.1/gson-2.3.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://download.osgeo.org/webdav/geotools/com/google/code/gson/gson/2.3.1/gson-2.3.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.SocketException (Connection reset) while downloading https://conjars.org/repo/com/google/code/gson/gson/2.3.1/gson-2.3.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:344)[0m
+[0m[[0m[31merror[0m] [0m[0m	at lmcoursier.CoursierDependencyResolution.$anonfun$update$38(CoursierDependencyResolution.scala:313)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.util.Either$LeftProjection.map(Either.scala:573)[0m
+[0m[[0m[31merror[0m] [0m[0m	at lmcoursier.CoursierDependencyResolution.update(CoursierDependencyResolution.scala:313)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:60)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:60)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:134)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:74)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$20(LibraryManagement.scala:147)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.util.control.Exception$Catch.apply(Exception.scala:228)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:147)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:128)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.util.Tracked$.$anonfun$inputChangedW$1(Tracked.scala:220)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:161)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Classpaths$.$anonfun$updateTask0$1(Defaults.scala:3799)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Function1.$anonfun$compose$1(Function1.scala:49)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:63)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.std.Transform$$anon$4.work(Transform.scala:69)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$2(Execute.scala:283)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:24)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.work(Execute.scala:292)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$1(Execute.scala:283)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.CompletionService$$anon$2.call(CompletionService.scala:65)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.Thread.run(Thread.java:834)[0m
+[0m[[0m[31merror[0m] [0m[0m([31mupdate[0m) sbt.librarymanagement.ResolveException: Error downloading org.geotools:gt-transform:15.1[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: C:\Users\Siddh\.ivy2\local\org.geotools\gt-transform\15.1\ivys\ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/org/geotools/gt-transform/15.1/gt-transform-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo.locationtech.org/content/groups/releases/org/geotools/gt-transform/15.1/gt-transform-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException (repo.boundlessgeo.com) while downloading https://repo.boundlessgeo.com/main/org/geotools/gt-transform/15.1/gt-transform-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://download.osgeo.org/webdav/geotools/org/geotools/gt-transform/15.1/gt-transform-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.SocketException (Connection reset) while downloading https://conjars.org/repo/org/geotools/gt-transform/15.1/gt-transform-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0mError downloading org.geotools:gt-api:15.1[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: C:\Users\Siddh\.ivy2\local\org.geotools\gt-api\15.1\ivys\ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/org/geotools/gt-api/15.1/gt-api-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo.locationtech.org/content/groups/releases/org/geotools/gt-api/15.1/gt-api-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException (repo.boundlessgeo.com) while downloading https://repo.boundlessgeo.com/main/org/geotools/gt-api/15.1/gt-api-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://download.osgeo.org/webdav/geotools/org/geotools/gt-api/15.1/gt-api-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.SocketException (Connection reset) while downloading https://conjars.org/repo/org/geotools/gt-api/15.1/gt-api-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0mError downloading com.github.ben-manes.caffeine:caffeine:2.3.3[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: C:\Users\Siddh\.ivy2\local\com.github.ben-manes.caffeine\caffeine\2.3.3\ivys\ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/com/github/ben-manes/caffeine/caffeine/2.3.3/caffeine-2.3.3.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo.locationtech.org/content/groups/releases/com/github/ben-manes/caffeine/caffeine/2.3.3/caffeine-2.3.3.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException (repo.boundlessgeo.com) while downloading https://repo.boundlessgeo.com/main/com/github/ben-manes/caffeine/caffeine/2.3.3/caffeine-2.3.3.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://download.osgeo.org/webdav/geotools/com/github/ben-manes/caffeine/caffeine/2.3.3/caffeine-2.3.3.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.SocketException (Connection reset) while downloading https://conjars.org/repo/com/github/ben-manes/caffeine/caffeine/2.3.3/caffeine-2.3.3.pom[0m
+[0m[[0m[31merror[0m] [0m[0mError downloading commons-io:commons-io:2.1[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: C:\Users\Siddh\.ivy2\local\commons-io\commons-io\2.1\ivys\ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/commons-io/commons-io/2.1/commons-io-2.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo.locationtech.org/content/groups/releases/commons-io/commons-io/2.1/commons-io-2.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException (repo.boundlessgeo.com) while downloading https://repo.boundlessgeo.com/main/commons-io/commons-io/2.1/commons-io-2.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://download.osgeo.org/webdav/geotools/commons-io/commons-io/2.1/commons-io-2.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.SocketException (Connection reset) while downloading https://conjars.org/repo/commons-io/commons-io/2.1/commons-io-2.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0mError downloading io.netty:netty:3.7.0.Final[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: C:\Users\Siddh\.ivy2\local\io.netty\netty\3.7.0.Final\ivys\ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo.locationtech.org/content/groups/releases/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException (repo.boundlessgeo.com) while downloading https://repo.boundlessgeo.com/main/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://download.osgeo.org/webdav/geotools/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.SocketException (Connection reset) while downloading https://conjars.org/repo/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.pom[0m
+[0m[[0m[31merror[0m] [0m[0mError downloading org.slf4j:slf4j-api:1.7.7[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: C:\Users\Siddh\.ivy2\local\org.slf4j\slf4j-api\1.7.7\ivys\ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo.locationtech.org/content/groups/releases/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException (repo.boundlessgeo.com) while downloading https://repo.boundlessgeo.com/main/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://download.osgeo.org/webdav/geotools/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.SocketException (Connection reset) while downloading https://conjars.org/repo/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.pom[0m
+[0m[[0m[31merror[0m] [0m[0mError downloading org.geotools:gt-shapefile:15.1[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: C:\Users\Siddh\.ivy2\local\org.geotools\gt-shapefile\15.1\ivys\ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/org/geotools/gt-shapefile/15.1/gt-shapefile-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo.locationtech.org/content/groups/releases/org/geotools/gt-shapefile/15.1/gt-shapefile-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException (repo.boundlessgeo.com) while downloading https://repo.boundlessgeo.com/main/org/geotools/gt-shapefile/15.1/gt-shapefile-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://download.osgeo.org/webdav/geotools/org/geotools/gt-shapefile/15.1/gt-shapefile-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.SocketException (Connection reset) while downloading https://conjars.org/repo/org/geotools/gt-shapefile/15.1/gt-shapefile-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0mError downloading org.geotools:gt-referencing:15.1[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: C:\Users\Siddh\.ivy2\local\org.geotools\gt-referencing\15.1\ivys\ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/org/geotools/gt-referencing/15.1/gt-referencing-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo.locationtech.org/content/groups/releases/org/geotools/gt-referencing/15.1/gt-referencing-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException (repo.boundlessgeo.com) while downloading https://repo.boundlessgeo.com/main/org/geotools/gt-referencing/15.1/gt-referencing-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://download.osgeo.org/webdav/geotools/org/geotools/gt-referencing/15.1/gt-referencing-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.SocketException (Connection reset) while downloading https://conjars.org/repo/org/geotools/gt-referencing/15.1/gt-referencing-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0mError downloading org.geotools:gt-data:15.1[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: C:\Users\Siddh\.ivy2\local\org.geotools\gt-data\15.1\ivys\ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/org/geotools/gt-data/15.1/gt-data-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo.locationtech.org/content/groups/releases/org/geotools/gt-data/15.1/gt-data-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException (repo.boundlessgeo.com) while downloading https://repo.boundlessgeo.com/main/org/geotools/gt-data/15.1/gt-data-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://download.osgeo.org/webdav/geotools/org/geotools/gt-data/15.1/gt-data-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.SocketException (Connection reset) while downloading https://conjars.org/repo/org/geotools/gt-data/15.1/gt-data-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0mError downloading org.slf4j:slf4j-api:1.7.5[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: C:\Users\Siddh\.ivy2\local\org.slf4j\slf4j-api\1.7.5\ivys\ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo.locationtech.org/content/groups/releases/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException (repo.boundlessgeo.com) while downloading https://repo.boundlessgeo.com/main/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://download.osgeo.org/webdav/geotools/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.SocketException (Connection reset) while downloading https://conjars.org/repo/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.pom[0m
+[0m[[0m[31merror[0m] [0m[0mError downloading com.google.guava:guava:17.0[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: C:\Users\Siddh\.ivy2\local\com.google.guava\guava\17.0\ivys\ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/com/google/guava/guava/17.0/guava-17.0.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo.locationtech.org/content/groups/releases/com/google/guava/guava/17.0/guava-17.0.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException (repo.boundlessgeo.com) while downloading https://repo.boundlessgeo.com/main/com/google/guava/guava/17.0/guava-17.0.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://download.osgeo.org/webdav/geotools/com/google/guava/guava/17.0/guava-17.0.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.SocketException (Connection reset) while downloading https://conjars.org/repo/com/google/guava/guava/17.0/guava-17.0.pom[0m
+[0m[[0m[31merror[0m] [0m[0mError downloading org.apache.accumulo:accumulo-core:1.7.3[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: C:\Users\Siddh\.ivy2\local\org.apache.accumulo\accumulo-core\1.7.3\ivys\ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/org/apache/accumulo/accumulo-core/1.7.3/accumulo-core-1.7.3.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo.locationtech.org/content/groups/releases/org/apache/accumulo/accumulo-core/1.7.3/accumulo-core-1.7.3.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException (repo.boundlessgeo.com) while downloading https://repo.boundlessgeo.com/main/org/apache/accumulo/accumulo-core/1.7.3/accumulo-core-1.7.3.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://download.osgeo.org/webdav/geotools/org/apache/accumulo/accumulo-core/1.7.3/accumulo-core-1.7.3.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.SocketException (Connection reset) while downloading https://conjars.org/repo/org/apache/accumulo/accumulo-core/1.7.3/accumulo-core-1.7.3.pom[0m
+[0m[[0m[31merror[0m] [0m[0mError downloading org.geotools:gt-main:15.1[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: C:\Users\Siddh\.ivy2\local\org.geotools\gt-main\15.1\ivys\ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/org/geotools/gt-main/15.1/gt-main-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo.locationtech.org/content/groups/releases/org/geotools/gt-main/15.1/gt-main-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException (repo.boundlessgeo.com) while downloading https://repo.boundlessgeo.com/main/org/geotools/gt-main/15.1/gt-main-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://download.osgeo.org/webdav/geotools/org/geotools/gt-main/15.1/gt-main-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.SocketException (Connection reset) while downloading https://conjars.org/repo/org/geotools/gt-main/15.1/gt-main-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0mError downloading ch.qos.logback:logback-classic:1.1.7[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: C:\Users\Siddh\.ivy2\local\ch.qos.logback\logback-classic\1.1.7\ivys\ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.1.7/logback-classic-1.1.7.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo.locationtech.org/content/groups/releases/ch/qos/logback/logback-classic/1.1.7/logback-classic-1.1.7.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException (repo.boundlessgeo.com) while downloading https://repo.boundlessgeo.com/main/ch/qos/logback/logback-classic/1.1.7/logback-classic-1.1.7.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://download.osgeo.org/webdav/geotools/ch/qos/logback/logback-classic/1.1.7/logback-classic-1.1.7.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.SocketException (Connection reset) while downloading https://conjars.org/repo/ch/qos/logback/logback-classic/1.1.7/logback-classic-1.1.7.pom[0m
+[0m[[0m[31merror[0m] [0m[0mError downloading org.geotools:gt-geojson:15.1[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: C:\Users\Siddh\.ivy2\local\org.geotools\gt-geojson\15.1\ivys\ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/org/geotools/gt-geojson/15.1/gt-geojson-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo.locationtech.org/content/groups/releases/org/geotools/gt-geojson/15.1/gt-geojson-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException (repo.boundlessgeo.com) while downloading https://repo.boundlessgeo.com/main/org/geotools/gt-geojson/15.1/gt-geojson-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://download.osgeo.org/webdav/geotools/org/geotools/gt-geojson/15.1/gt-geojson-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.SocketException (Connection reset) while downloading https://conjars.org/repo/org/geotools/gt-geojson/15.1/gt-geojson-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0mError downloading org.geotools:gt-opengis:15.1[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: C:\Users\Siddh\.ivy2\local\org.geotools\gt-opengis\15.1\ivys\ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/org/geotools/gt-opengis/15.1/gt-opengis-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo.locationtech.org/content/groups/releases/org/geotools/gt-opengis/15.1/gt-opengis-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException (repo.boundlessgeo.com) while downloading https://repo.boundlessgeo.com/main/org/geotools/gt-opengis/15.1/gt-opengis-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://download.osgeo.org/webdav/geotools/org/geotools/gt-opengis/15.1/gt-opengis-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.SocketException (Connection reset) while downloading https://conjars.org/repo/org/geotools/gt-opengis/15.1/gt-opengis-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0mError downloading org.geotools:gt-metadata:15.1[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: C:\Users\Siddh\.ivy2\local\org.geotools\gt-metadata\15.1\ivys\ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/org/geotools/gt-metadata/15.1/gt-metadata-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo.locationtech.org/content/groups/releases/org/geotools/gt-metadata/15.1/gt-metadata-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException (repo.boundlessgeo.com) while downloading https://repo.boundlessgeo.com/main/org/geotools/gt-metadata/15.1/gt-metadata-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://download.osgeo.org/webdav/geotools/org/geotools/gt-metadata/15.1/gt-metadata-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.SocketException (Connection reset) while downloading https://conjars.org/repo/org/geotools/gt-metadata/15.1/gt-metadata-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0mError downloading com.beust:jcommander:1.48[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: C:\Users\Siddh\.ivy2\local\com.beust\jcommander\1.48\ivys\ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/com/beust/jcommander/1.48/jcommander-1.48.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo.locationtech.org/content/groups/releases/com/beust/jcommander/1.48/jcommander-1.48.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException (repo.boundlessgeo.com) while downloading https://repo.boundlessgeo.com/main/com/beust/jcommander/1.48/jcommander-1.48.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://download.osgeo.org/webdav/geotools/com/beust/jcommander/1.48/jcommander-1.48.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.SocketException (Connection reset) while downloading https://conjars.org/repo/com/beust/jcommander/1.48/jcommander-1.48.pom[0m
+[0m[[0m[31merror[0m] [0m[0mError downloading org.geotools:gt-grid:15.1[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: C:\Users\Siddh\.ivy2\local\org.geotools\gt-grid\15.1\ivys\ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/org/geotools/gt-grid/15.1/gt-grid-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo.locationtech.org/content/groups/releases/org/geotools/gt-grid/15.1/gt-grid-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException (repo.boundlessgeo.com) while downloading https://repo.boundlessgeo.com/main/org/geotools/gt-grid/15.1/gt-grid-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://download.osgeo.org/webdav/geotools/org/geotools/gt-grid/15.1/gt-grid-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.SocketException (Connection reset) while downloading https://conjars.org/repo/org/geotools/gt-grid/15.1/gt-grid-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0mError downloading com.typesafe.scala-logging:scala-logging_2.11:3.5.0[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: C:\Users\Siddh\.ivy2\local\com.typesafe.scala-logging\scala-logging_2.11\3.5.0\ivys\ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging_2.11/3.5.0/scala-logging_2.11-3.5.0.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo.locationtech.org/content/groups/releases/com/typesafe/scala-logging/scala-logging_2.11/3.5.0/scala-logging_2.11-3.5.0.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException (repo.boundlessgeo.com) while downloading https://repo.boundlessgeo.com/main/com/typesafe/scala-logging/scala-logging_2.11/3.5.0/scala-logging_2.11-3.5.0.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://download.osgeo.org/webdav/geotools/com/typesafe/scala-logging/scala-logging_2.11/3.5.0/scala-logging_2.11-3.5.0.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.SocketException (Connection reset) while downloading https://conjars.org/repo/com/typesafe/scala-logging/scala-logging_2.11/3.5.0/scala-logging_2.11-3.5.0.pom[0m
+[0m[[0m[31merror[0m] [0m[0mError downloading org.geotools:gt-process-feature:15.1[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: C:\Users\Siddh\.ivy2\local\org.geotools\gt-process-feature\15.1\ivys\ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/org/geotools/gt-process-feature/15.1/gt-process-feature-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo.locationtech.org/content/groups/releases/org/geotools/gt-process-feature/15.1/gt-process-feature-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException (repo.boundlessgeo.com) while downloading https://repo.boundlessgeo.com/main/org/geotools/gt-process-feature/15.1/gt-process-feature-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://download.osgeo.org/webdav/geotools/org/geotools/gt-process-feature/15.1/gt-process-feature-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.SocketException (Connection reset) while downloading https://conjars.org/repo/org/geotools/gt-process-feature/15.1/gt-process-feature-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0mError downloading org.geotools:gt-render:15.1[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: C:\Users\Siddh\.ivy2\local\org.geotools\gt-render\15.1\ivys\ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/org/geotools/gt-render/15.1/gt-render-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo.locationtech.org/content/groups/releases/org/geotools/gt-render/15.1/gt-render-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException (repo.boundlessgeo.com) while downloading https://repo.boundlessgeo.com/main/org/geotools/gt-render/15.1/gt-render-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://download.osgeo.org/webdav/geotools/org/geotools/gt-render/15.1/gt-render-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.SocketException (Connection reset) while downloading https://conjars.org/repo/org/geotools/gt-render/15.1/gt-render-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0mError downloading org.geotools:gt-cql:15.1[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: C:\Users\Siddh\.ivy2\local\org.geotools\gt-cql\15.1\ivys\ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/org/geotools/gt-cql/15.1/gt-cql-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo.locationtech.org/content/groups/releases/org/geotools/gt-cql/15.1/gt-cql-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException (repo.boundlessgeo.com) while downloading https://repo.boundlessgeo.com/main/org/geotools/gt-cql/15.1/gt-cql-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://download.osgeo.org/webdav/geotools/org/geotools/gt-cql/15.1/gt-cql-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.SocketException (Connection reset) while downloading https://conjars.org/repo/org/geotools/gt-cql/15.1/gt-cql-15.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0mError downloading com.google.code.gson:gson:2.3.1[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: C:\Users\Siddh\.ivy2\local\com.google.code.gson\gson\2.3.1\ivys\ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://repo1.maven.org/maven2/com/google/code/gson/gson/2.3.1/gson-2.3.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo.locationtech.org/content/groups/releases/com/google/code/gson/gson/2.3.1/gson-2.3.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException (repo.boundlessgeo.com) while downloading https://repo.boundlessgeo.com/main/com/google/code/gson/gson/2.3.1/gson-2.3.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught javax.net.ssl.SSLHandshakeException (Remote host terminated the handshake) while downloading https://download.osgeo.org/webdav/geotools/com/google/code/gson/gson/2.3.1/gson-2.3.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.SocketException (Connection reset) while downloading https://conjars.org/repo/com/google/code/gson/gson/2.3.1/gson-2.3.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 321 s (05:21), completed 05-Sep-2023, 5:48:32 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

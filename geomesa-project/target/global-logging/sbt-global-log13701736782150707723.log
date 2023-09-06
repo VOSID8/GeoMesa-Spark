@@ -1,0 +1,6 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(compile, Some(aaffe655-4660-418b-9b44-7a59f9cb1a42), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Projects\GeoMesa-Spark\geomesa-project\target\scala-2.11\classes ...[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 6 s, completed 06-Sep-2023, 4:53:37 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

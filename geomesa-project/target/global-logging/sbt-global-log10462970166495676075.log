@@ -1,0 +1,11 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(compile, Some(65419b12-e7b5-4bec-ad92-4a3541c36dad), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Projects\GeoMesa-Spark\geomesa-project\target\scala-2.11\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Projects\GeoMesa-Spark\geomesa-project\src\main\scala\Main.scala:65:5: not found: value dayAn[0m
+[0m[[0m[31merror[0m] [0m[0m    dayAn// import org.apache.hadoop.conf.Configuration[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 2 s, completed 06-Sep-2023, 4:52:12 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
